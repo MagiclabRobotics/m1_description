@@ -11,7 +11,6 @@ This package includes a universal humanoid robot description (URDF & MJCF) for t
   </tr>
 </table>
 
-
 Magicbot-Gen1 Humanoid have 30 joints:
 
 ```text
@@ -32,18 +31,18 @@ root [⚓] => /pelvis/
         joint_wy [⚙+Z] => /LINK_WY/
             joint_hy [⚙+Z] => /LINK_HY/
                 joint_hp [⚙+Y] => /LINK_HP/
-                    joint_la1 [⚙+X] => /LINK_LA1/
-                        joint_la2 [⚙+Y] => /LINK_LA2/
+                    joint_la1 [⚙+Y] => /LINK_LA1/
+                        joint_la2 [⚙+X] => /LINK_LA2/
                             joint_la3 [⚙+Z] => /LINK_LA3/
-                                joint_la4 [⚙+Y] => /LINK_LA4/
-                                    joint_la5 [⚙+Y] => /LINK_LA5/
-                                        joint_la6 [⚙+Y] => /LINK_LA6/
+                                joint_la4 [⚙+X] => /LINK_LA4/
+                                    joint_la5 [⚙+Z] => /LINK_LA5/
+                                        joint_la6 [⚙+X] => /LINK_LA6/
                                             joint_la7 [⚙+Y] => /LINK_LA7/
-                    joint_ra1 [⚙+X] => /LINK_RA1/
-                        joint_ra2 [⚙+Y] => /LINK_RA2/
+                    joint_ra1 [⚙+Y] => /LINK_RA1/
+                        joint_ra2 [⚙+X] => /LINK_RA2/
                             joint_ra3 [⚙+Z] => /LINK_RA3/
-                                joint_ra4 [⚙+Y] => /LINK_RA4/
-                                    joint_ra5 [⚙+Y] => /LINK_RA5/
-                                        joint_ra6 [⚙+Y] => /LINK_RA6/
+                                joint_ra4 [⚙+X] => /LINK_RA4/
+                                    joint_ra5 [⚙+Z] => /LINK_RA5/
+                                        joint_ra6 [⚙+X] => /LINK_RA6/
                                             joint_ra7 [⚙+Y] => /LINK_RA7/
 ```
