@@ -7,7 +7,7 @@ This package includes a universal humanoid robot description (URDF & MJCF) for t
 <table>
   <tr>
     <td><img src="doc/rviz.png" width="400"/></td>
-    <td><img src="doc/mujoco.jpg" width="400"/></td>
+    <td><img src="doc/mujoco.png" width="400"/></td>
   </tr>
 </table>
 
@@ -45,4 +45,18 @@ root [⚓] => /pelvis/
                                     joint_ra5 [⚙+Z] => /LINK_RA5/
                                         joint_ra6 [⚙+X] => /LINK_RA6/
                                             joint_ra7 [⚙+Y] => /LINK_RA7/
+```
+## Usages
+
+### RViz
+
+```bash
+colcon build
+source install/setup.bash
+ros2 launch magicbot_gen1_description view.launch.py 
+```
+### MuJoCo
+```bash
+pip install mujoco
+python3 -m mujoco.viewer --mjcf=mjcf/MAGICBOT.xml
 ```

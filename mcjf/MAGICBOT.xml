@@ -1,8 +1,8 @@
-<mujoco model="MAGICBOT">
+<mujoco model="Magicbot-Gen1">
     <compiler angle="radian" meshdir="../meshes/" />
     <size njmax="500" nconmax="100" />
   <asset>
-        <mesh name="base_link" file="base_link.STL" />
+        <mesh name="pelvis" file="pelvis.STL" />
         <mesh name="LINK_HIP_ROLL_L" file="LINK_HIP_ROLL_L.STL" />
         <mesh name="LINK_HIP_YAW_L" file="LINK_HIP_YAW_L.STL" />
         <mesh name="LINK_HIP_PITCH_L" file="LINK_HIP_PITCH_L.STL" />
@@ -52,15 +52,15 @@
 
   <worldbody>
 
-    <light name="spotlight" mode="trackcom" target="base_link" pos="0 -0.2 2" dir="0 0 -1" directional="true" cutoff="30"/>
-    <geom name="ground" type="plane" pos="0 0 0" friction="1 1 5" size="500 500 1" conaffinity="1" contype="1" material="MatGnd"/>
+    <light name="spotlight" mode="trackcom" target="pelvis" pos="0 -0.2 2" dir="0 0 -1" directional="true" cutoff="30"/>
+    <geom name="ground" type="plane" pos="0 0 0" friction="1 1 5" size="15 15 1" conaffinity="1" contype="1" material="MatGnd"/>
 
-    <body name="base_link" pos="0 0 1.2">
+    <body name="pelvis" pos="0 0 0.95" quat="0.7071 0 0 -0.7071">
       <camera name="track" pos="0 -3 1" zaxis="0 -1 0.5" mode="track"/>
       <freejoint/>
       <inertial pos="-0.0867525 9.19e-06 0.012959" quat="0.670588 0.670525 0.224397 -0.224395" mass="6.32181" diaginertia="0.0866265 0.0823034 0.0198841"/>
-      <geom type="mesh" contype="0" conaffinity="0" group="1" rgba="0.75294 0.75294 0.75294 1" mesh="base_link"/>
-      <geom type="mesh" rgba="0.75294 0.75294 0.75294 1" mesh="base_link"/>
+      <geom type="mesh" contype="0" conaffinity="0" group="1" rgba="0.75294 0.75294 0.75294 1" mesh="pelvis"/>
+      <geom type="mesh" rgba="0.75294 0.75294 0.75294 1" mesh="pelvis"/>
       <body name="LINK_HIP_ROLL_L" pos="0 0.1175 0">
         <inertial pos="-0.0307534 -3.55e-06 0.0214845" quat="2.72134e-06 0.528952 -2.59562e-05 0.848652" mass="0.47382" diaginertia="0.000912726 0.0007199 0.000528614"/>
         <joint name="JOINT_HIP_ROLL_L" pos="0 0 0" axis="1 0 0" limited="true" range="-0.349 0.523"/>
@@ -89,8 +89,8 @@
                 <body name="LINK_ANKLE_ROLL_L" pos="0 0 -0.01">
                   <inertial pos="0.0181629 0.00118755 -0.0261397" quat="0.0419233 0.749639 0.0481793 0.658758" mass="0.801308" diaginertia="0.0038524 0.00377511 0.000670562"/>
                   <joint name="JOINT_ANKLE_ROLL_L" pos="0 0 0" axis="1 0 0" limited="true" range="-0.349 0.349"/>
-                  <geom name="l_foot" rgba="0.75294 0.75294 0.75294 1" size="0.12 0.05 0.004" pos="0.03744 0.0 -0.043" group="1" type="box"/>
-                  <site name="l_foot_center" pos="0.0 0 -0.043"/>
+                  <geom type="mesh" contype="1" conaffinity="0" group="1" density="0" rgba="0.75294 0.75294 0.75294 1" mesh="LINK_ANKLE_ROLL_L" />
+                  <geom type="mesh" rgba="0.75294 0.75294 0.75294 1" mesh="LINK_ANKLE_ROLL_L" />
                 </body>
               </body>
             </body>
@@ -125,8 +125,8 @@
                 <body name="LINK_ANKLE_ROLL_R" pos="0 0 -0.01" quat="1 2.0446e-05 7.4275e-05 -1.51863e-09">
                   <inertial pos="0.0173464 -0.00124434 -0.0259356" quat="-0.046951 0.749545 -0.0530177 0.658154" mass="0.794245" diaginertia="0.00374197 0.00366589 0.000665126"/>
                   <joint name="JOINT_ANKLE_ROLL_R" pos="0 0 0" axis="1 0 0" limited="true" range="-0.349 0.349"/>
-                  <geom name="r_foot" rgba="0.75294 0.75294 0.75294 1" size="0.12 0.05 0.004" pos="0.03744 0.0 -0.043" group="2" type="box"/>
-                  <site name="r_foot_center" pos="0.0 0 -0.043"/>
+                  <geom type="mesh" contype="1" conaffinity="0" group="1" density="0" rgba="0.75294 0.75294 0.75294 1" mesh="LINK_ANKLE_ROLL_R" />
+                  <geom type="mesh" rgba="0.75294 0.75294 0.75294 1" mesh="LINK_ANKLE_ROLL_R" />
                 </body>
               </body>
             </body>
@@ -243,15 +243,14 @@
       </body>
 
         <!-- imu at body base -->
-        <body name="imu_link_at_base_link" pos="0 0 0">
+        <body name="imu_link_at_pelvis" pos="0 0 0">
             <inertial pos="0 0 0" mass="0.1" diaginertia="0.000001 0.000001 0.000001" />
             <geom name="imu_link" size="0.01 0.01 0.01" pos="0 0 0" type="box" />
-            <site name="imu_sensor_at_base_link" type="box" pos="0 0 0" size=".02 .02 .02" rgba=".9 .1 .9 1"/>
+            <site name="imu_sensor_at_pelvis" type="box" pos="0 0 0" size=".02 .02 .02" rgba=".9 .1 .9 1"/>
         </body>
 
     </body>
   </worldbody>
-
 
     <actuator>
     <motor name="left_hip_roll_actuator" joint="JOINT_HIP_ROLL_L"/>
@@ -290,11 +289,11 @@
     <motor name="right_hand_roll_actuator" joint="joint_ra6"/>
     <motor name="right_hand_pitch_actuator" joint="joint_ra7"/>
 
-    </actuator>
+  </actuator>
 
     <sensor>
-        <accelerometer name="imu_local_acc_at_base_link" site="imu_sensor_at_base_link"/>
-        <gyro name="imu_local_gyro_at_base_link" site="imu_sensor_at_base_link"/>
+        <accelerometer name="imu_local_acc_at_pelvis" site="imu_sensor_at_pelvis"/>
+        <gyro name="imu_local_gyro_at_pelvis" site="imu_sensor_at_pelvis"/>
     </sensor>
 
 </mujoco>
