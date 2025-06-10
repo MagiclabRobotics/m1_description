@@ -51,6 +51,7 @@ root [⚓] => /pelvis/
 ### RViz
 
 ```bash
+sudo apt install ros-<ros_distro>-joint-state-publisher-gui
 colcon build
 source install/setup.bash
 ros2 launch magicbot_gen1_description view.launch.py 
