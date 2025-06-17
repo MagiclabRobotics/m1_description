@@ -1809,4 +1809,20 @@
       effort="40"
       velocity="5" />
   </joint>
+  <link name="logo_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://magicbot_gen1_description/meshes/logo_link.STL" scale="1.5 1.5 1.5" />
+      </geometry>
+      <material name="gray">
+        <color rgba="0.5 0.5 0.5 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="logo_joint" type="fixed">
+    <origin xyz="-0.042 0 -0.272" rpy="0 0 0" />
+    <parent link="link_wy" />
+    <child link="logo_link" />
+  </joint>
 </robot>

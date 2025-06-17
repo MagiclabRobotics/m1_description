@@ -33,6 +33,7 @@
         <mesh name="link_ra5" file="link_ra5.STL" />
         <mesh name="link_ra6" file="link_ra6.STL" />
         <mesh name="link_ra7" file="link_ra7.STL" />
+        <mesh name="logo_link" file="logo_link.STL" scale="1.5 1.5 1.5"/>
         <texture type="2d" name="groundplane" builtin="checker" mark="edge" rgb1="0.2 0.3 0.4" rgb2="0.1 0.2 0.3" markrgb="1 1 1" width="300" height="300"/>
         <material name="MatGnd" texture="groundplane" texuniform="true" texrepeat="5 5" reflectance="0.2"/>
   </asset>
@@ -143,6 +144,9 @@
           <joint name="joint_wy" pos="0 0 0" axis="0 0 1" limited="true" range="-1.57 1.57"/>
           <geom type="mesh" contype="0" conaffinity="0" group="1" rgba="0.75294 0.75294 0.75294 1" mesh="link_wy"/>
           <geom type="mesh" rgba="0.75294 0.75294 0.75294 1" mesh="link_wy"/>
+          <body name="logo_link" pos="-0.042 0 -0.272">
+            <geom type="mesh" mesh="logo_link" rgba="0.5 0.5 0.5 1" contype="0" conaffinity="0"/>
+          </body>
           <body name="link_hy" pos="-0.0059657 0 0.50108">
             <inertial pos="-0.00331412 0.00160025 -0.0664507" quat="0.661612 -0.0307511 -0.00798009 0.749173" mass="1.30579" diaginertia="0.00617406 0.00611049 0.000873257"/>
             <joint name="joint_hy" pos="0 0 0" axis="0 0 1" limited="true" range="-1.047 1.047"/>
