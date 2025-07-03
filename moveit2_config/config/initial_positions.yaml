@@ -1,0 +1,29 @@
+# Default initial positions for Magicbot-Gen1's ros2_control fake system
+
+initial_positions:
+  JOINT_ANKLE_PITCH_L: 0
+  JOINT_ANKLE_PITCH_R: 0
+  JOINT_ANKLE_ROLL_L: 0
+  JOINT_ANKLE_ROLL_R: 0
+  JOINT_HIP_PITCH_L: 0
+  JOINT_HIP_PITCH_R: 0
+  JOINT_HIP_ROLL_L: 0
+  JOINT_HIP_ROLL_R: 0
+  JOINT_HIP_YAW_L: 0
+  JOINT_HIP_YAW_R: 0
+  JOINT_KNEE_PITCH_L: 0
+  JOINT_KNEE_PITCH_R: 0
+  joint_la1: 0
+  joint_la2: 0
+  joint_la3: 0
+  joint_la4: 0
+  joint_la5: 0
+  joint_la6: 0
+  joint_la7: 0
+  joint_ra1: 0
+  joint_ra2: 0
+  joint_ra3: 0
+  joint_ra4: 0
+  joint_ra5: 0
+  joint_ra6: 0
+  joint_ra7: 0

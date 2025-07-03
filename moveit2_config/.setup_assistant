@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: magicbot_gen1_description
+    relative_path: urdf/MAGICBOT.urdf
+  srdf:
+    relative_path: config/Magicbot-Gen1.srdf
+  package_settings:
+    author_name: magiclab
+    author_email: contact@magiclab.top
+    generated_timestamp: 1751508230
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
