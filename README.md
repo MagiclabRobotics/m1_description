@@ -2,7 +2,7 @@
 
 ## Overview
 
-This package includes a universal humanoid robot description (URDF & MJCF) for the [Magicbot-Gen1](https://www.magiclab.top/human), developed by Magiclab Robotics.
+This package includes a universal humanoid robot description (URDF & MJCF) and MoveIt2 configuration for the [Magicbot-Gen1](https://www.magiclab.top/human), developed by Magiclab Robotics.
 
 <table>
   <tr>
@@ -51,13 +51,25 @@ root [⚓] => /pelvis/
 ### RViz
 
 ```bash
-sudo apt install ros-<ros_distro>-joint-state-publisher-gui
+sudo apt install ros-humble-joint-state-publisher-gui
+cd magicbot-gen1_description
 colcon build
 source install/setup.bash
 ros2 launch magicbot_gen1_description view.launch.py 
 ```
+### MoveIt2
+```bash
+sudo apt install ros-humble-moveit ros-humble-moveit-visual-tools
+sudo apt install ros-humble-joint-state-broadcaster ros-humble-joint-trajectory-controller
+cd moveit2_config
+source ../install/setup.bash
+colcon build
+source install/setup.bash
+ros2 launch moveit2_config demo.launch.py 
+```
 ### MuJoCo
 ```bash
 pip install mujoco
+cd magicbot-gen1_description
 python3 -m mujoco.viewer --mjcf=mjcf/MAGICBOT.xml
 ```
