@@ -49,25 +49,14 @@ root [⚓] => /pelvis/
 ## Usages
 
 ### RViz
-
 ```bash
 sudo apt install ros-humble-joint-state-publisher-gui
 cd magicbot-gen1_description
 colcon build
 source install/setup.bash
-ros2 launch magicbot_gen1_description view.launch.py 
+ros2 launch magicbot-gen1_description view.launch.py 
 ```
-### MoveIt2
-```bash
-sudo apt install ros-humble-moveit ros-humble-moveit-visual-tools
-sudo apt install ros-humble-joint-state-broadcaster ros-humble-joint-trajectory-controller
-sudo apt install ros-humble-ros2-control ros-humble-ros2-controllers ros-humble-controller-manager
-cd moveit2_config
-source ../install/setup.bash
-colcon build
-source install/setup.bash
-ros2 launch moveit2_config demo.launch.py 
-```
+
 ### MuJoCo
 ```bash
 pip install mujoco

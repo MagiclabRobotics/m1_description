@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>magicbot_gen1_description</name>
+  <name>magicbot-gen1_description</name>
   <version>0.0.2</version>
   <description>Description package for Magicbot-Gen1 robot</description>
   <maintainer email="contact@magiclab.top">Magiclab</maintainer>

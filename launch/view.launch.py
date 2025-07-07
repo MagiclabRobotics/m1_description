@@ -27,7 +27,7 @@ def generate_launch_description() -> LaunchDescription:
     # Declare all launch arguments
     declared_arguments = generate_declared_arguments()
 
-    description_package = "magicbot_gen1_description"
+    description_package = "magicbot-gen1_description"
     description_filepath = path.join("urdf", "MAGICBOT.urdf")
 
     # Get substitution for all arguments
@@ -85,7 +85,7 @@ def generate_declared_arguments() -> List[DeclareLaunchArgument]:
         DeclareLaunchArgument(
             "rviz_config",
             default_value=path.join(
-                get_package_share_directory("magicbot_gen1_description"),
+                get_package_share_directory("magicbot-gen1_description"),
                 "rviz",
                 "view.rviz",
             ),

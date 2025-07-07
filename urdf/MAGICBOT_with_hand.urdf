@@ -23,7 +23,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/pelvis.STL" />
+          filename="package://magicbot-gen1_description/meshes/pelvis.STL" />
       </geometry>
       <material
         name="">
@@ -37,7 +37,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/pelvis.STL" />
+          filename="package://magicbot-gen1_description/meshes/pelvis.STL" />
       </geometry>
     </collision>
   </link>
@@ -63,7 +63,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_ROLL_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_ROLL_L.STL" />
       </geometry>
       <material
         name="">
@@ -77,7 +77,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_ROLL_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_ROLL_L.STL" />
       </geometry>
     </collision>
   </link>
@@ -121,7 +121,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_YAW_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_YAW_L.STL" />
       </geometry>
       <material
         name="">
@@ -135,7 +135,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_YAW_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_YAW_L.STL" />
       </geometry>
     </collision>
   </link>
@@ -179,7 +179,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_PITCH_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_PITCH_L.STL" />
       </geometry>
       <material
         name="">
@@ -193,7 +193,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_PITCH_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_PITCH_L.STL" />
       </geometry>
     </collision>
   </link>
@@ -237,7 +237,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_KNEE_PITCH_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_KNEE_PITCH_L.STL" />
       </geometry>
       <material
         name="">
@@ -251,7 +251,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_KNEE_PITCH_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_KNEE_PITCH_L.STL" />
       </geometry>
     </collision>
   </link>
@@ -295,7 +295,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_ANKLE_PITCH_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_ANKLE_PITCH_L.STL" />
       </geometry>
       <material
         name="">
@@ -309,7 +309,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_ANKLE_PITCH_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_ANKLE_PITCH_L.STL" />
       </geometry>
     </collision>
   </link>
@@ -353,7 +353,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_ANKLE_ROLL_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_ANKLE_ROLL_L.STL" />
       </geometry>
       <material
         name="">
@@ -367,7 +367,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_ANKLE_ROLL_L.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_ANKLE_ROLL_L.STL" />
       </geometry>
     </collision>
   </link>
@@ -411,7 +411,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_ROLL_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_ROLL_R.STL" />
       </geometry>
       <material
         name="">
@@ -425,7 +425,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_ROLL_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_ROLL_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -469,7 +469,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_YAW_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_YAW_R.STL" />
       </geometry>
       <material
         name="">
@@ -483,7 +483,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_YAW_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_YAW_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -527,7 +527,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_PITCH_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_PITCH_R.STL" />
       </geometry>
       <material
         name="">
@@ -541,7 +541,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_HIP_PITCH_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_HIP_PITCH_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -585,7 +585,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_KNEE_PITCH_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_KNEE_PITCH_R.STL" />
       </geometry>
       <material
         name="">
@@ -599,7 +599,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_KNEE_PITCH_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_KNEE_PITCH_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -643,7 +643,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_ANKLE_PITCH_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_ANKLE_PITCH_R.STL" />
       </geometry>
       <material
         name="">
@@ -657,7 +657,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_ANKLE_PITCH_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_ANKLE_PITCH_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -701,7 +701,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_ANKLE_ROLL_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_ANKLE_ROLL_R.STL" />
       </geometry>
       <material
         name="">
@@ -715,7 +715,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/LINK_ANKLE_ROLL_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/LINK_ANKLE_ROLL_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -759,7 +759,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_wr.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_wr.STL" />
       </geometry>
       <material
         name="">
@@ -773,7 +773,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_wr.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_wr.STL" />
       </geometry>
     </collision>
   </link>
@@ -817,7 +817,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_wy.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_wy.STL" />
       </geometry>
       <material
         name="">
@@ -831,7 +831,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_wy.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_wy.STL" />
       </geometry>
     </collision>
   </link>
@@ -875,7 +875,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_hy.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_hy.STL" />
       </geometry>
       <material
         name="">
@@ -889,7 +889,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_hy.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_hy.STL" />
       </geometry>
     </collision>
   </link>
@@ -933,7 +933,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_hp.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_hp.STL" />
       </geometry>
       <material
         name="">
@@ -947,7 +947,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_hp.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_hp.STL" />
       </geometry>
     </collision>
   </link>
@@ -1019,7 +1019,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la1.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la1.STL" />
       </geometry>
       <material
         name="">
@@ -1033,7 +1033,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la1.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1077,7 +1077,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la2.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la2.STL" />
       </geometry>
       <material
         name="">
@@ -1091,7 +1091,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la2.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1135,7 +1135,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la3.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la3.STL" />
       </geometry>
       <material
         name="">
@@ -1149,7 +1149,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la3.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la3.STL" />
       </geometry>
     </collision>
   </link>
@@ -1193,7 +1193,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la4.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la4.STL" />
       </geometry>
       <material
         name="">
@@ -1207,7 +1207,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la4.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la4.STL" />
       </geometry>
     </collision>
   </link>
@@ -1251,7 +1251,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la5.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la5.STL" />
       </geometry>
       <material
         name="">
@@ -1265,7 +1265,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la5.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la5.STL" />
       </geometry>
     </collision>
   </link>
@@ -1309,7 +1309,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la6.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la6.STL" />
       </geometry>
       <material
         name="">
@@ -1323,7 +1323,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_la6.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_la6.STL" />
       </geometry>
     </collision>
   </link>
@@ -1369,7 +1369,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/hand_link.STL" />
+          filename="package://magicbot-gen1_description/meshes/hand_link.STL" />
       </geometry>
       <material
         name="">
@@ -1383,7 +1383,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/hand_link.STL" />
+          filename="package://magicbot-gen1_description/meshes/hand_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1429,7 +1429,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra1.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra1.STL" />
       </geometry>
       <material
         name="">
@@ -1443,7 +1443,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra1.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra1.STL" />
       </geometry>
     </collision>
   </link>
@@ -1487,7 +1487,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra2.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra2.STL" />
       </geometry>
       <material
         name="">
@@ -1501,7 +1501,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra2.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra2.STL" />
       </geometry>
     </collision>
   </link>
@@ -1545,7 +1545,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra3.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra3.STL" />
       </geometry>
       <material
         name="">
@@ -1559,7 +1559,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra3.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra3.STL" />
       </geometry>
     </collision>
   </link>
@@ -1603,7 +1603,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra4.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra4.STL" />
       </geometry>
       <material
         name="">
@@ -1617,7 +1617,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra4.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra4.STL" />
       </geometry>
     </collision>
   </link>
@@ -1661,7 +1661,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra5.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra5.STL" />
       </geometry>
       <material
         name="">
@@ -1675,7 +1675,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra5.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra5.STL" />
       </geometry>
     </collision>
   </link>
@@ -1719,7 +1719,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra6.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra6.STL" />
       </geometry>
       <material
         name="">
@@ -1733,7 +1733,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/link_ra6.STL" />
+          filename="package://magicbot-gen1_description/meshes/link_ra6.STL" />
       </geometry>
     </collision>
   </link>
@@ -1779,7 +1779,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/hand_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/hand_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -1793,7 +1793,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/hand_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/hand_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -1839,7 +1839,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/little1_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/little1_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1853,7 +1853,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/little1_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/little1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1898,7 +1898,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/ring1_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/ring1_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1912,7 +1912,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/ring1_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/ring1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1957,7 +1957,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/middle1_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/middle1_Link.STL" />
       </geometry>
       <material
         name="">
@@ -1971,7 +1971,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/middle1_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/middle1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -2016,7 +2016,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/forefinger1_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/forefinger1_Link.STL" />
       </geometry>
       <material
         name="">
@@ -2030,7 +2030,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/forefinger1_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/forefinger1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -2075,7 +2075,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb2_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb2_Link.STL" />
       </geometry>
       <material
         name="">
@@ -2089,7 +2089,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb2_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -2134,7 +2134,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb1_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb1_Link.STL" />
       </geometry>
       <material
         name="">
@@ -2148,7 +2148,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb1_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb1_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -2194,7 +2194,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/little1_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/little1_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -2208,7 +2208,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/little1_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/little1_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -2253,7 +2253,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/ring1_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/ring1_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -2267,7 +2267,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/ring1_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/ring1_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -2312,7 +2312,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/middle1_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/middle1_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -2326,7 +2326,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/middle1_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/middle1_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -2372,7 +2372,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/forefinger1_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/forefinger1_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -2386,7 +2386,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/forefinger1_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/forefinger1_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -2431,7 +2431,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb2_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb2_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -2445,7 +2445,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb2_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb2_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -2490,7 +2490,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb1_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb1_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -2504,7 +2504,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb1_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb1_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -2550,7 +2550,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/little2_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/little2_Link.STL" />
       </geometry>
       <material
         name="">
@@ -2564,7 +2564,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/little2_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/little2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -2610,7 +2610,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/ring2_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/ring2_Link.STL" />
       </geometry>
       <material
         name="">
@@ -2624,7 +2624,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/ring2_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/ring2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -2670,7 +2670,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/middle2_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/middle2_Link.STL" />
       </geometry>
       <material
         name="">
@@ -2684,7 +2684,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/middle2_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/middle2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -2730,7 +2730,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/forefinger2_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/forefinger2_Link.STL" />
       </geometry>
       <material
         name="">
@@ -2744,7 +2744,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/forefinger2_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/forefinger2_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -2790,7 +2790,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb3_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb3_Link.STL" />
       </geometry>
       <material
         name="">
@@ -2804,7 +2804,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb3_Link.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb3_Link.STL" />
       </geometry>
     </collision>
   </link>
@@ -2850,7 +2850,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/little2_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/little2_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -2864,7 +2864,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/little2_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/little2_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -2910,7 +2910,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/ring2_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/ring2_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -2924,7 +2924,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/ring2_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/ring2_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -2970,7 +2970,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/middle2_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/middle2_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -2984,7 +2984,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/middle2_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/middle2_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -3030,7 +3030,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/forefinger2_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/forefinger2_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -3044,7 +3044,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/forefinger2_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/forefinger2_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -3090,7 +3090,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb3_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb3_Link_R.STL" />
       </geometry>
       <material
         name="">
@@ -3104,7 +3104,7 @@
         rpy="0 0 0" />
       <geometry>
         <mesh
-          filename="package://magicbot_gen1_description/meshes/thumb3_Link_R.STL" />
+          filename="package://magicbot-gen1_description/meshes/thumb3_Link_R.STL" />
       </geometry>
     </collision>
   </link>
@@ -3131,7 +3131,7 @@
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="package://magicbot_gen1_description/meshes/logo_link.STL" scale="1.5 1.5 1.5" />
+        <mesh filename="package://magicbot-gen1_description/meshes/logo_link.STL" scale="1.5 1.5 1.5" />
       </geometry>
       <material name="gray">
         <color rgba="0.5 0.5 0.5 1" />
