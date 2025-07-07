@@ -2,7 +2,7 @@
 
 ## Overview
 
-This package includes a universal humanoid robot description (URDF & MJCF) and MoveIt2 configuration for the [Magicbot-Gen1](https://www.magiclab.top/human), developed by Magiclab Robotics.
+This package includes a universal humanoid robot description (URDF & MJCF) for the [Magicbot-Gen1](https://www.magiclab.top/human), developed by Magiclab Robotics.
 
 <table>
   <tr>
